@@ -39,7 +39,6 @@ h1 {
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
-  color: #87629a;
 }
 
 .row {
@@ -53,16 +52,10 @@ h1 {
 .col {
   /* these are now flex items */
   width: 100%;
-  text-align: center;
 }
 
 .hero {
   padding: 100px 0;
-  background-color: #23424a;
-  color: #fff;
-}
-
-.features {
   background-color: #23424a;
   color: #fff;
 }
@@ -89,4 +82,19 @@ h1 {
 .btn:hover,
 .btn:focus {
   opacity: 0.75;
+}
+
+.three-col h2 {
+  color: #87629a;
+}
+
+.two-col {
+  background-color: #23424a;
+  color: #fff;
+}
+
+.three-col,
+.two-col {
+  padding: 3em 0;
+  text-align: center;
 }
