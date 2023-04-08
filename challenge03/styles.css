@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #23424a;
+  color: white;
+  padding: 2em 0;
+  font-family: Roboto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 60rem;
+  border: 1px solid yellow;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.info {
+  font-size: 1.325rem;
+}
+
+.text {
+  width: 50%;
+}
+
+.btn {
+  border-radius: 100vh;
+  padding: 0.75em 2em;
+  background-color: #38cfd9;
+  color: #23424a;
+  border: none;
+  font: 1.325rem;
+  font-weight: 700;
+  max-width: 50%;
+}
